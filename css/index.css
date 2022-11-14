@@ -383,12 +383,27 @@ footer .button {
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
-
+  header nav .menu_item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
   /* gallery section */
   .gallery {
     height: auto;
   }
+  .gallery div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+  .gallery img {
+    width: 20rem;
+    height: 20rem;
+    margin: 1% auto;
+  }
   /* about us section */
 
   .about {
